@@ -1,1 +1,27 @@
-
+~/cli-basics-assignment-JacksonCheung21-1$ pwd
+/home/runner/cli-basics-assignment-JacksonCheung21-1
+~/cli-basics-assignment-JacksonCheung21-1$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-JacksonCheung21-1$ ls 
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-JacksonCheung21-1$ cd CLIBasicsFolder
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ echo Jackson, ICS4U1b >>myfile.txt  
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ ls
+myfile.txt
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ cat myfile.txt
+Jackson, ICS4U1b
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt 
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt 
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder
+~/cli-basics-assignment-JacksonCheung21-1/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-JacksonCheung21-1$ pwd
+/home/runner/cli-basics-assignment-JacksonCheung21-1
+~/cli-basics-assignment-JacksonCheung21-1$ rm -r CLIBasicsFolder
+~/cli-basics-assignment-JacksonCheung21-1$ ls ~  
+cli-basics-assignment-JacksonCheung21-1  myfile2.txt  _test_runner.py
